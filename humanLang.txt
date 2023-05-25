@@ -1,0 +1,2 @@
+a,e,i,o,u
+b,d,g,k,h,t
