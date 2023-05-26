@@ -39,9 +39,6 @@
     <ClCompile Include="world\world.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="util\simplexnoise.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="util\namegenerator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -71,14 +68,8 @@
     <ClInclude Include="world\world.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="util\SimplexNoise.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="util\namegenerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="humanLang.txt" />
   </ItemGroup>
 </Project>

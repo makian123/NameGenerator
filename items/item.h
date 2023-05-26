@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <vector>
 
 class BaseItem {
 	protected:
@@ -10,6 +11,7 @@ class BaseItem {
 
 	public:
 	BaseItem(const std::string &name = "", const std::string &desc = "");
+	virtual ~BaseItem() {}
 
 	int GetID() const { return id; }
 	std::string GetName() const { return name; }

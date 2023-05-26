@@ -137,7 +137,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="util\customrandom.cpp" />
     <ClCompile Include="util\namegenerator.cpp" />
-    <ClCompile Include="util\simplexnoise.cpp" />
     <ClCompile Include="world\world.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -148,12 +147,8 @@
     <ClInclude Include="items\weapon\meleeweapon.h" />
     <ClInclude Include="util\customrandom.h" />
     <ClInclude Include="util\namegenerator.h" />
-    <ClInclude Include="util\SimplexNoise.h" />
     <ClInclude Include="world\voxel.h" />
     <ClInclude Include="world\world.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="humanLang.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

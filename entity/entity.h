@@ -17,6 +17,7 @@ class Entity {
 
 	public:
 	Entity(const std::string &name, float hp);
+	virtual ~Entity() {}
 
 	std::vector<std::shared_ptr<BaseItem>> &GetInventory() { return inventory; }
 	std::shared_ptr<BaseItem> &GetMainHand() { return mainHand; }

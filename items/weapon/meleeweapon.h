@@ -37,6 +37,7 @@ class MeleeWeapon: public BaseItem {
 	int currDurability, maxdurability;
 
 	public:
+	friend class BuffDamage;
 	MeleeWeapon(float dmg, int durability);
 
 	void Attack(Entity &entity);
